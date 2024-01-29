@@ -1,0 +1,50 @@
+/* Add this CSS in a separate file or directly in your React component */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.content {
+  text-align: center;
+}
+
+#div2 {
+  background-color: #8cf0e1; 
+  padding: 20px;
+  margin: 20px;
+  border-radius: 9px;
+}
+
+h3 {
+  color: #333; 
+}
+
+button {
+  background-color: #4caf50; 
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #21c629; 
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
